@@ -1,0 +1,15 @@
+body{ background-color: rgb(115, 137, 148);
+    color: rgb(237, 241, 226);
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+
+h1{
+	color: yellow;
+}
+
+#slogan {
+
+	font-style: italic;
+}
