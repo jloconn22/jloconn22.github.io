@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Spectral:300');
+
+body{ background-color: white;
+    color: black;
+    text-align: center;
+    margin: 2em;
+}
+
+p{ font-family: 'Spectral', serif;
+	font-size: 18px;
+}
+
+ul{ font-family: 'Spectral', serif;
+	font-size: 14px;
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive; 
+	font-size: 50px;
+}
+
+a{ font-size: 14px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 18px;
+}
+
+#list {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 34px; 
+}
+
+#contact {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
