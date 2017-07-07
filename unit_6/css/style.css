@@ -13,6 +13,7 @@ p{ font-family: 'Spectral', serif;
 
 ul{ font-family: 'Spectral', serif;
 	font-size: 14px;
+	text-align: left;
 }
 
 h1{
@@ -97,4 +98,3 @@ article {
 	height: 0;
 }
 
-#218f57
