@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Spectral:300');
+
+body{ background-color: white;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper {
+	padding: 2%;
+	width: 100%;
+}
+
+p{ font-family: 'Spectral', serif;
+	font-size: 1.1em;
+}
+
+ul{ font-family: 'Spectral', serif;
+	font-size: 1em;
+	text-align: left;
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive; 
+	font-size: 3em;
+}
+
+a{ font-size: 1.1em;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#list {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2.1em; 
+}
+
+#contact {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+header {
+	background-color: black;
+	color: #ebefe1;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+section {
+	background-color: #27a597;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+footer {
+	background-color: #7ddc81;
+	color: #ebefe1;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	width: 45%;
+	margin-left: 1%;
+}
+
+img {
+	width: 75%;
+	padding: 20px;
+
+}
+
+#two_column {
+	background-color: #3ac3b4;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #ebefe1;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 45%;
+	height: 400px
+}
+
+#right {
+	background-color: #ebefe1;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 45%;
+	height: 400px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (min-width: 320px)
+	{
+		article {
+			margin-left: 25%;
+		}
+		#left {
+			height: 300px;
+	}
+		#right {
+			height: 500px;
+		}
+	}
+@media screen and (min-width: 1024px) {
+	article{
+		margin-left:4%;
+		
+	}
+			#left {
+				width: 40%;
+			height: 500px;
+	}
+		#right {
+			width:40%;
+
+			height: 500px;
+		}
+} 
